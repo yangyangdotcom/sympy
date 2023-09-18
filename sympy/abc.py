@@ -82,7 +82,7 @@ phi, chi, psi, omega = symbols('phi, chi, psi, omega')
 
 ##### Clashing-symbols diagnostics #####
 
-# We want to know which names in SymPy collide with those in here.
+# We want to know which names in SymPy collide with those in here
 # This is mostly for diagnosing SymPy's namespace during SymPy development.
 
 _latin = list(string.ascii_letters)
