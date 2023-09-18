@@ -62,7 +62,7 @@ from sympy.parsing.sympy_parser import null
 ##### Symbol definitions #####
 
 # Implementation note: The easiest way to avoid typos in the symbols()
-# parameter is to copy it from the left-hand side of the assignment.
+# parameter is to copy it from the left-hand side of the assignment
 
 a, b, c, d, e, f, g, h, i, j = symbols('a, b, c, d, e, f, g, h, i, j')
 k, l, m, n, o, p, q, r, s, t = symbols('k, l, m, n, o, p, q, r, s, t')
@@ -82,7 +82,7 @@ phi, chi, psi, omega = symbols('phi, chi, psi, omega')
 
 ##### Clashing-symbols diagnostics #####
 
-# We want to know which names in SymPy collide with those in here.
+# We want to know which names in SymPy collide with those in here
 # This is mostly for diagnosing SymPy's namespace during SymPy development.
 
 _latin = list(string.ascii_letters)
