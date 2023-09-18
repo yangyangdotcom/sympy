@@ -62,7 +62,7 @@ from sympy.parsing.sympy_parser import null
 ##### Symbol definitions #####
 
 # Implementation note: The easiest way to avoid typos in the symbols()
-# parameter is to copy it from the left-hand side of the assignment.
+# parameter is to copy it from the left-hand side of the assignment
 
 a, b, c, d, e, f, g, h, i, j = symbols('a, b, c, d, e, f, g, h, i, j')
 k, l, m, n, o, p, q, r, s, t = symbols('k, l, m, n, o, p, q, r, s, t')
